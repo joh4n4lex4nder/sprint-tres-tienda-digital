@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="styles/materialize.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="styles/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <title>Detalle producto</title>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav class="purple" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="index.html" class="brand-logo white-text"
+            >Paisa Geek</a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li class="active">
+              <a class="white-text" href="index.html"
+                ><i class="material-icons left">home</i>Inicio</a
+              >
+            </li>
+            <li>
+              <a class="white-text" href="products.html"
+                ><i class="material-icons left">shopping_bag</i>Productos</a
+              >
+            </li>
+            <li>
+              <a class="white-text" href="#"
+                ><i class="material-icons left">room</i>Contacto</a
+              >
+            </li>
+          </ul>
+
+          <ul id="nav-mobile" class="sidenav">
+            <li class="active">
+              <a class="white-text" href="index.html"
+                ><i class="material-icons left">home</i>Inicio</a
+              >
+            </li>
+            <li>
+              <a class="white-text" href="products.html"
+                ><i class="material-icons left">shopping_bag</i>Productos</a
+              >
+            </li>
+            <li>
+              <a class="white-text" href="#"
+                ><i class="material-icons left">room</i>Contacto</a
+              >
+            </li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+        </div>
+      </nav>
+      <div class="cart-button right">
+        <span class="cart-icon"
+          ><i class="material-icons">shopping_cart</i></span
+        >
+      </div>
+      <div class="cart-items right">0</div>
+    </div>
+
+    <div class="container">
+      <h3>Detalle de producto</h3>
+      <div class="row">
+        <div class="col s6">
+          <div class="item-container">
+            <a href="#"
+              ><img
+                src="images/play-station-1-detail.jpg"
+                alt="Imagen detalle videojuego"
+            /></a>
+          </div>
+        </div>
+        <div class="col s6">
+          <div class="item-container">
+            <h4>For Honor</h4>
+            <p>
+              Sumérgete en el caos de una guerra encarnizada y juega como
+              caballero, vikingo o samurái, tres de los mejores guerreros de la
+              historia. For Honor es una experiencia inmersiva y de ritmo
+              vertiginoso que mezcla la habilidad con lo pasional en un combate
+              cuerpo a cuerpo nunca antes visto.
+            </p>
+            <h6>$150.000</h6>
+            <input type="number" name="cantity" id="cantity" value="1" />
+            <a class="waves-effect waves-light btn purple center"
+              ><i class="material-icons left">add_shopping_cart</i>añadir al
+              carrito</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer white">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="black-text">Acerca de nosotros</h5>
+            <p class="black-text text-lighten-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+              pariatur necessitatibus animi in, maiores iure non voluptatem!
+              Reprehenderit aspernatur nisi corrupti incidunt rem, aut,
+              perspiciatis a sunt veritatis, itaque quisquam!
+            </p>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="black-text">Enlaces de interés</h5>
+            <ul>
+              <li>
+                <a class="black-text text-lighten-4" href="#!">Historia</a>
+              </li>
+              <li>
+                <a class="black-text text-lighten-4" href="#!">Galería</a>
+              </li>
+              <li>
+                <a class="black-text text-lighten-4" href="#!"
+                  >Trabaja con nosotros</a
+                >
+              </li>
+              <li>
+                <a class="black-text text-lighten-4" href="#!">Inversiones</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="black-text">Redes sociales</h5>
+            <ul>
+              <li>
+                <a class="black-text text-lighten-4" href="#!">Facebook</a>
+              </li>
+              <li>
+                <a class="black-text text-lighten-4" href="#!">Twitter</a>
+              </li>
+              <li>
+                <a class="black-text text-lighten-4" href="#!">Instagram</a>
+              </li>
+              <li>
+                <a class="black-text text-lighten-4" href="#!">Youtube</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright purple">
+        <div class="container">
+          <div class="row center">
+            <p class="white-text">
+              Desarrollado por Johan Alexander Rojas Suárez - 2021
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="scripts/materialize.js"></script>
+    <script src="scripts/init.js"></script>
+  </body>
+</html>
